@@ -1,0 +1,317 @@
+Success?,Time (sec):,Response,Error,Change,Prompt Used,Time (nanoseconds)
+Yes,0.00,,,,"        content:
+          ""Generate "" +
+          numOfCases +
+          "" test cases for this question, ("" +
+          question +
+          "" ), including edge cases, large cases. ONLY return as JSON code, USE proper JSON and follow the format provided here, "" +
+          format +
+          "" \n *** ONLY RETURN CODE <<<< DO NOT number it or anything, DO NOT start with any comments or context, simply return code. Make sure to have"" +
+          numOfCases +
+          ""  tests cases and all parameters ***"",
+      }",
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+No,0.00," message: {
+    role: 'assistant',
+    content: '[\n' +
+      '    {\n' +
+      '        ""id"": 1,\n' +
+      '        ""hidden"": false,\n' +
+      '        ""input"": ""4"",\n' +
+      '        ""output"": ""1""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 2,\n' +
+      '        ""hidden"": true,\n' +
+      '        ""input"": ""44444"",\n' +
+      '        ""output"": ""1""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 3,\n' +
+      '        ""hidden"": false,\n' +
+      '        ""input"": ""44443"",\n' +
+      '        ""output"": ""0""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 4,\n' +
+      '        ""hidden"": true,\n' +
+      '        ""input"": ""34"",\n' +
+      '        ""output"": ""0""\n' +
+      '    }\n' +
+      ']'
+  }","Forgot ""test"" in the beginning, also did not complete text generation",None,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+No,0.00,"message: {
+    role: 'assistant',
+    content: 'Here is an example of a JSON object containing 10 test cases for the given function:\n' +
+      '```json\n' +
+      '{\n' +
+      '    ""test"":[\n' +
+      '        {\n' +
+      '            ""id"": 1,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""4"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 2,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""44444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 3,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""44443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 4,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""34"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 5,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""-1"",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 6,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""0"",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 7,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""2.5"",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 8,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""\\""abc\\"""",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 9,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""true"",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 10,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""null"",\n' +
+      '            ""output"": ""Invalid input""\n' +
+      '        }\n' +
+      '    ]\n' +
+      '}\n' +
+      '```\n' +
+      'This JSON object contains 10 test cases for the given function. Each test case has an id (int), hidden (boolean), input (string), and output (string). The ""hidden"" field specifies whether the test case should be visible in the test report or not. The ""input"" field contains the input value to be passed to the function, and the ""output"" field contains the expected output of the function for that input. The ""id"" field is used to uniquely identify each test case, and the ""hidden"" field specifies whether the test case should be hidden in the test report or not.'
+  }",Started with a comment. Invalid tests. Incomplete text generation,None,,
+No,0.00,"  message: {
+    role: 'assistant',
+    content: '[\n' +
+      '    {\n' +
+      '        ""id"": 1,\n' +
+      '        ""hidden"": false,\n' +
+      '        ""input"": ""4"",\n' +
+      '        ""output"": ""1""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 2,\n' +
+      '        ""hidden"": true,\n' +
+      '        ""input"": ""44444"",\n' +
+      '        ""output"": ""1""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 3,\n' +
+      '        ""hidden"": false,\n' +
+      '        ""input"": ""44443"",\n' +
+      '        ""output"": ""0""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 4,\n' +
+      '        ""hidden"": true,\n' +
+      '        ""input"": ""34"",\n' +
+      '        ""output"": ""0""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 5,\n' +
+      '        ""hidden"": false,\n' +
+      '        ""input"": ""123456789"",\n' +
+      '        ""output"": ""0""\n' +
+      '    },\n' +
+      '    {\n' +
+      '        ""id"": 6,\n' +
+      '        ""hidden"": true,\n' +
+      '        ""input"": ""4444444444444444444444444444444'
+  }","Incomplete text generation. Forgot ""tests"" in beginning",None,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+No,0.00,"    content: 'Here are ten test cases for the function `given-positive-all-fours?`, including edge cases and large inputs:\n' +
+      '```json\n' +
+      '{\n' +
+      '    ""test"":[\n' +
+      '        {\n' +
+      '            ""id"": 1,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""4"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 2,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""44444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 3,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""44443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 4,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""34"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 5,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""444444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 6,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""444443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 7,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""4444444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 8,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""4444443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 9,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""44444444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 10,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""44444443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        }\n' +
+      '    ]\n' +
+      '}\n' +
+      '```\n' +
+      'Note that the `hidden` parameter is used to indicate whether a test case should be hidden from the user.'
+  }",Starts with a comment. ,,,
+Yes,0.00,,,"Change the prompt slightly, and made a function that extracts the tests regardless if there is any other text surrounding the JSON code",,
+80% Success Rate for Test Generation,,,,,,
+Yes,0.00,,,,"content:
+          ""Without any comments or context, Generate "" +
+          numOfCases +
+          "" test cases for this question, ("" +
+          question +
+          "" ), include cases such as edge cases, large cases. The output should strictly be in JSON format, adhering to the template provided: ( "" +
+          format +
+          "" )\n *** ONLY RETURN CODE <<<< DO NOT number it or anything, simply return code. Make sure to have"" +
+          numOfCases +
+          ""  tests cases and all parameters ***""",
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,0.00,"[
+  { id: 1, hidden: false, input: 4, output: 1 },
+  { id: 2, hidden: true, input: 44444, output: 1 },
+  { id: 3, hidden: false, input: 44443, output: 0 },
+  { id: 4, hidden: true, input: 34, output: 0 },
+  { id: 5, hidden: false, input: 234, output: 0 },
+  { id: 6, hidden: true, input: 123456789, output: 0 },
+  { id: 7, hidden: false, input: -4, output: 0 },
+  { id: 8, hidden: true, input: 1.5, output: 0 },
+  { id: 9, hidden: false, input: -3, output: 0 },
+  { id: 10, hidden: true, input: 'hello', output: 0 }
+]","Used 'hello' as input, incorrect values",None,,
+Yes,0.00,,,,,
+Yes,0.00,,,,,
+Yes,48.91,,,,,48910026875
+Yes,62.94,,,,,62939837792
+Yes,68.40,,,,,68395719291
+Yes,25.73,,,,,25734096125
+Yes,47.42,,,,,47417046708
+Yes,45.10,,,,,45095094584
+Yes,108.80,,,,,108804464209
+Yes,59.16,,,,,59161459250
+Yes,44.16,,,,,44155469625
+Yes,46.34,,,,,46336184125
+No,0.00,"    content: '{\n' +
+      '    ""test"":[\n' +
+      '        {\n' +
+      '            ""id"": 1,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""4"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 2,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""44444"",\n' +
+      '            ""output"": ""1""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 3,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""44443"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 4,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""34"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 5,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""123456789"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 6,\n' +
+      '            ""hidden"": true,\n' +
+      '            ""input"": ""987654321"",\n' +
+      '            ""output"": ""0""\n' +
+      '        },\n' +
+      '        {\n' +
+      '            ""id"": 7,\n' +
+      '            ""hidden"": false,\n' +
+      '            ""input"": ""4444444444444444444444444444444'
+  }","Did not generate all test case, incomplete text generation",None,,
+Yes,60.43,,,,,60430000584
+95% Success Rate for Test Generation,,,,,,

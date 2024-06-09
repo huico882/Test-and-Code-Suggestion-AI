@@ -1,0 +1,18 @@
+Each test case requires an id (int), hidden (boolean), input (string), output (string).
+}
+    "test":[
+        {
+            "id": 1,
+            "hidden": false,
+            "input": "Example Input",
+            "output": "Example Output"
+        },
+        {
+            "id": 2,
+            "hidden": true,
+            "input": "Example Input",
+            "output": "Example Output"
+        }
+    ]
+}
+Please follow this structure closely, ensuring unique inputs and outputs for each.
